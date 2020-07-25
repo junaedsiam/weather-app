@@ -1,0 +1,51 @@
+:root{
+    --primary-color:#7a49ca;
+}
+html{
+    margin:0;
+}
+
+body{
+    max-width:768px;
+    margin:2rem auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    text-align: center;
+}
+.site-header{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: var(--primary-color);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav li{
+    margin-right: 0.6rem;
+}
+.nav li a{
+    color:#666;
+    font-weight:500;
+}
+.weather-form input, .weather-form button{
+    height:30px;
+    padding:0 1rem;
+}
+button{
+    background:var(--primary-color);
+    color:white;
+    border:1px solid transparent;
+    cursor:pointer;
+    border-radius:3px;
+}
+.forecast-result{
+    font-size:1.1rem;
+}
+.forecast-result .error{
+    color:red;
+}
